@@ -1,0 +1,98 @@
+*{
+  background-color: #C0C0C0;
+}
+
+article{
+  border: dashed 5px;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+p{
+  width: 50%;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2,h1{
+  text-align: center;
+}
+nav{
+  padding: 10px 0 10px 0;
+  background-color: white;
+  text-align: center;
+  position: static;
+  width: 100%;
+}
+
+nav ul{
+  background-color: white;
+}
+
+nav ul li,
+nav ul li a{
+  display: inline-block;
+  font-size: 30px;
+  padding: 0 50px 0 50px;
+  background-color: white;
+  color: black;
+}
+
+aside{
+  background-color: #D3D3D3;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  border: dashed 1px;
+}
+
+ol,
+ol li{
+  background-color: #D3D3D3;
+}
+
+aside p{
+  background-color: #D3D3D3;
+}
+
+img, video, embed, audio{
+   width: 1000px;
+   height: auto;
+   margin: 0 auto;
+   padding:100px auto 100px auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+figcaption{
+  font-size: 15px;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article{
+  font-size: 20px;
+}
+
+footer{
+  background-color: white;
+  margin-top: 50px;
+  text-align: center;
+  position: static;
+  width: 100%;
+  bottom: 5px;
+  z-index: 5;
+}
+
+footer h3 {
+  display: inline-block;
+  font-size: 14px;
+  background-color: white;
+}

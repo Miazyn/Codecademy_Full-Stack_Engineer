@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    
+    <title> New York Blog </title>
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
     <nav>
       <ul>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Media</a></li>
-        <li><a href="">About</a></li>
+        <li><a href="#blog" style="text-decoration:none">Blog</a></li>
+        <li><a href="#media" style="text-decoration:none">Media</a></li>
+        <li><a href="#about" style="text-decoration:none">About</a></li>
       </ul>
     </nav>
 
@@ -28,7 +29,7 @@
       <figure>
         <img src="https://content.codecademy.com/courses/Semantic%20HTML/statue-of-liberty.jpeg"/>
         <figcaption>
-          This is the Statue of Liberty, a popular tourist attraction located on Liberty Island.
+          <em>This is the Statue of Liberty, a popular tourist attraction located on Liberty Island.</em>
         </figcaption>
       </figure>
 
@@ -47,7 +48,7 @@
         </ol>
       </aside>
 
-      <section>
+      <section id="media">
         <article>
           <h2>The Scenery in NYC</h2>
           <p>
@@ -64,13 +65,13 @@
 
     </main>
 
-    <footer>
-      <p>
+    <footer id="about">
+      <h3>
         Posted by: M.
-      </p>
-      <p>
+      </h3>
+      <h3>
         Contact information: Blogger@NYC.com
-      </p>
+      </h3>
     </footer>
 
   </body>
